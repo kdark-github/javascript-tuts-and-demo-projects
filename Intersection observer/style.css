@@ -1,0 +1,141 @@
+
+*{
+ /* scroll-behavior: smooth; */
+ scroll-behavior: smooth;
+}
+
+
+section{
+ width:100vw;
+ height:100vh;
+padding: 0;
+margin: 0;
+text-align: center;
+line-height: 100vh;
+font-size: 30px;
+position: relative;
+
+}
+
+
+.section-div
+{
+ width:100vw;
+ height:100vh;
+padding: 0;
+margin: 0;
+text-align: center;
+line-height: 100vh;
+font-size: 30px;
+position: relative;
+background-color: black;
+color:white;
+font-family: 'Courier New', Courier, monospace;
+font-size: 40px;
+
+
+}
+div:nth-child(even)
+{
+
+}
+
+body {
+ padding:0;
+ margin:0;
+}
+
+.elements
+{
+ 
+ height: 100px;
+ width: 100px;
+ /* background-color: crimson !important; */
+ position: absolute;
+ /* border-radius: 50px; */
+}
+
+.elements .gradient {
+ background-image: linear-gradient(rgba(255,255,255,0)60% ,black );
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 2;
+ height: 100%;
+ width: 100%;
+}
+
+.elements img 
+{
+ height: inherit;
+ width: inherit;
+ position: absolute;
+ top: 0;
+ z-index: 0;
+ left: 0;
+}
+
+.elem-1
+{
+ width:100px;
+ height:100px;
+ top:70%;
+ left:17%;
+ transition: all  ease-in;
+ z-index: 2;
+}
+
+.elem-2
+{
+ width:70px;
+ height:70px;
+ top:60%;
+ left:33%;
+ transition: all  ease-in;
+z-index: 1;
+}
+
+
+.elem-3
+{
+ width:120px;
+ height:120px;
+ top:90%;
+ left:50%;
+ transition: all  ease-in;
+z-index: 3;
+}
+
+.elem-4
+{
+ width:60px;
+ height:60px;
+ top:74%;
+ left:63%;
+ transition: all  ease-in;
+z-index: 2;
+}
+
+.elem-5
+{
+ width:100px;
+ height:100px;
+ top:55%;
+ left:75%;
+ transition: all  ease-in;
+z-index: 1
+}
+
+
+
+
+
+
+.scrollable
+{
+ width:100vw;
+ /* height: 300vh; */
+ padding: 0;
+ margin: 0;
+
+}
